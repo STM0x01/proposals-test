@@ -30,7 +30,7 @@ Each proposal needs this info:
 
 [["proposal",{"end_epoch":"1530945000","name":"Stim Test","payment_address":"nGHsTUHXzwhmRxMVNDvQ2wAf9wtkpi4t2q","payment_amount":"0","start_epoch":"1530933300","type":1,"url":"https://github.com/STM0x01/proposals-test/issues/1"}]]
 
-This looks like a big pile of garbage so I will break it down.
+So the syntax here is this:
 
 "proposal" just means that you are putting in a proposal so that always needs to be there.
 
@@ -87,6 +87,8 @@ Once you hit enter it will return the proposal hash.  This is very important bec
 To vote you will need that hash that was just generated and the vote command.
 
 gobject vote-many 2bac6381b7f82d9f6601d7d4cadfe2ae97b2513f9a58fc5180f7e3605d5ea83d funding yes
+
+gobject vote-alias 2bac6381b7f82d9f6601d7d4cadfe2ae97b2513f9a58fc5180f7e3605d5ea83d funding no
 
 Take that line and post it as a comment on your issue and also post it all over so people can vote on your proposal.
 
